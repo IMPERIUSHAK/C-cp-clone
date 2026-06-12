@@ -33,6 +33,9 @@ int main(int argc, char *argv[]){
     }
   }
 
+  close(f1);
+  close(f2);
+  
   return 0;
 
 }
